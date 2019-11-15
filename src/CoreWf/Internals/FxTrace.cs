@@ -6,7 +6,7 @@ using System.Diagnostics.Tracing;
 
 namespace System.Activities.Internals
 {
-    internal static partial class FxTrace
+    public static partial class FxTrace
     {
         private const string baseEventSourceName = "TRACESOURCE_NAME";
         private const string EventSourceVersion = "4.0.0.0";

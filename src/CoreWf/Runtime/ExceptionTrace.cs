@@ -9,7 +9,7 @@ using System.Security;
 
 namespace System.Activities.Runtime
 {
-    internal class ExceptionTrace
+    public class ExceptionTrace
     {
         private const ushort FailFastEventLogCategory = 6;
         private readonly string _eventSourceName;

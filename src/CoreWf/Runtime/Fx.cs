@@ -12,7 +12,7 @@ using System.Threading;
 
 namespace System.Activities.Runtime
 {
-    internal static class Fx
+    public static class Fx
     {
         private const string defaultEventSource = "System.Runtime";
 
