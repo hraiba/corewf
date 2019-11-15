@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27818.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Activities", "CoreWf\System.Activities.csproj", "{41C9737E-5FAA-4E9E-8264-B2BC10F56DA8}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlTestCases", "XamlTestCases\XamlTestCases.csproj", "{36AE306E-FDB2-41A4-861F-67112AA5CB7B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImperativeTestCases", "ImperativeTestCases\ImperativeTestCases.csproj", "{A31AC815-D67E-46DD-920F-7D9B5CC63932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Activities.Presentation", "System.Activities.Presentation\System.Activities.Presentation.csproj", "{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{A31AC815-D67E-46DD-920F-7D9B5CC63932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A31AC815-D67E-46DD-920F-7D9B5CC63932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A31AC815-D67E-46DD-920F-7D9B5CC63932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
