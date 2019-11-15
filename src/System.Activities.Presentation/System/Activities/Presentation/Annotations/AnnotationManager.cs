@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -10,10 +10,10 @@ namespace System.Activities.Presentation.Annotations
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.View;
     using System.ComponentModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Threading;
-
+    using System.Activities.Internals;
     internal class AnnotationManager
     {
         private bool isInitialized;

@@ -1,7 +1,7 @@
 namespace System.Activities.Presentation.Internal {
 
     using System.Diagnostics;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     //
     // An EqualityArray is an array of objects whose

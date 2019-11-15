@@ -8,7 +8,6 @@ namespace System.Activities.Presentation
     using System.Windows.Input;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.Hosting;
-    using System.Runtime;
     using System.Activities.Runtime;
 
     [Fx.Tag.XamlVisible(false)]

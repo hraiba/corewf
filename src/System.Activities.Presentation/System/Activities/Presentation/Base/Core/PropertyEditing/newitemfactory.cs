@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Activities.Presentation.Internal;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// Base class that represents a factory for creating new items for a collection or
     /// for a property value.  3rd party control developers may choose to derive from this class

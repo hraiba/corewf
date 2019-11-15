@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.View
     using System.Windows.Controls;
     using System.Windows.Media;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Runtime;
 

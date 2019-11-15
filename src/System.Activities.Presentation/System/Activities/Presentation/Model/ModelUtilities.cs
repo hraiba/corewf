@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Model
     using System;
     using System.Collections.Generic;
     using System.ComponentModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // This class provides useful shared utility functions that are
     // needed by our ModelItemImpl class implementations.

@@ -5,7 +5,7 @@ namespace System.Activities.Presentation.PropertyEditing
     using System.Text;
     using System.Activities.Presentation;
     using System.Collections;
-
+    using System.Activities.Internals;
     /// <summary>
     /// Collection class that is used to keep the collection of PropertyEntry instances for 
     /// subproperties of a given PropertyEntry

@@ -16,7 +16,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Model
     using System.Activities.Presentation.PropertyEditing;
 
     using System.Activities.Presentation.Internal.Properties;
-
+    using System.Activities.Internals;
     // <summary>
     // ModelPropertyIndexer is used to represent ModelItems in a collection.  As such
     // and unlike ModelProperty, the class wraps around a single ModelItem instead of

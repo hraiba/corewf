@@ -11,7 +11,7 @@ namespace System.Activities.Presentation
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     // <summary>

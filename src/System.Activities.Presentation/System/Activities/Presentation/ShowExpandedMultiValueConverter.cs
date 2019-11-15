@@ -12,8 +12,8 @@ namespace System.Activities.Presentation
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
     using System.Windows;
     using System.Activities.Presentation.View;
-    using System.Runtime;
-
+    using System.Activities.Runtime;
+    using System.Activities.Internals;
     //[SuppressMessage(FxCop.Category.Naming, FxCop.Rule.IdentifiersShouldBeSpelledCorrectly,
     //    Justification = "Following the naming of IMultiValueConverter")]
     internal sealed class ShowExpandedMultiValueConverter : IMultiValueConverter

@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -13,9 +13,9 @@ namespace System.Activities.Presentation.Converters
     using System.Activities.Presentation;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.PropertyEditing;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
-
+    using System.Activities.Internals;
     public sealed class ModelPropertyEntryToModelItemConverter : IMultiValueConverter, IValueConverter
     {
         ModelPropertyEntryToOwnerActivityConverter propertyEntryConverter = new ModelPropertyEntryToOwnerActivityConverter();

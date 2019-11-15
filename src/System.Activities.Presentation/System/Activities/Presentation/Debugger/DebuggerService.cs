@@ -19,10 +19,10 @@ namespace System.Activities.Presentation.Debug
     using System.Activities.XamlIntegration;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows.Documents;
     using System.Windows.Threading;
-
+    using System.Activities.Internals;
     [Fx.Tag.XamlVisible(false)]
     public class DebuggerService : IDesignerDebugView
     {

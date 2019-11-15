@@ -9,7 +9,7 @@ namespace System.Activities.Presentation
     using System.Activities;
     using System.Activities.Presentation.View;
     using System.ComponentModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Xaml;
     using XamlDeferLoad = System.Windows.Markup.XamlDeferLoadAttribute;
 

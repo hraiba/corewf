@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Hosting
 {
     using System.Diagnostics.CodeAnalysis;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     /// <summary>
     /// abstract class for multi-targeting support service

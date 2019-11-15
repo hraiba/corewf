@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.View
 {
     using System.Windows;
     using System.Globalization;
-    using System.Runtime;
+
     using System.Activities.Runtime;
 
     class FilterableData : DependencyObject

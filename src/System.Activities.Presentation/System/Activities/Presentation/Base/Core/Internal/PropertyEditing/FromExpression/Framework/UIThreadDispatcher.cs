@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System;
     using System.Diagnostics;
     using System.Windows.Threading;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // A class to execute a method on the UI thread. This must be constructed on the UI thread,

@@ -22,7 +22,7 @@ namespace System.Activities.Presentation.View
     using System.Windows.Threading;
     using System.Windows.Shapes;
     using System.Windows.Input;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Debug;
     using System.Diagnostics.CodeAnalysis;
     using System.Xaml;

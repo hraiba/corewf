@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Selection
     using System.Globalization;
     using System.Activities.Presentation.PropertyEditing;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // Helper class used to manage the selection stop behavior of a given PropertyContainer.
     // All it really does is expose the SelectionPath leading to its contained PropertyContainer.

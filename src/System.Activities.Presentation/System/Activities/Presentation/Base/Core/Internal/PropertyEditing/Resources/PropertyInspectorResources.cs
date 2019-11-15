@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Resources
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Helper class that knows how to look up, load, and return PropertyInspector-specific

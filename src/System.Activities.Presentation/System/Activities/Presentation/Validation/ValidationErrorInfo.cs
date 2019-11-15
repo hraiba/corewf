@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -8,7 +8,6 @@ namespace System.Activities.Presentation.Validation
     using System.Collections.Generic;
     using System.Text;
     using System.Activities.Validation;
-    using System.Runtime;
     using System.Activities.Runtime;
 
     [Serializable]

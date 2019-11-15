@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.State
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Text;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Helper class we use to contain a bunch of PersistedState objects.  Basically, the common functionality

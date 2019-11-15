@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.FreeFormEditing
 {
     using System;
     using System.Diagnostics;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Globalization;
     using System.Windows;
     using System.Windows.Data;

@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Internal
     using System.Windows.Markup;
     using System.Windows.Media.Imaging;
     using System.Diagnostics;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
     using System.Activities.Internals;
 

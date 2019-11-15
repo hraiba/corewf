@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -10,7 +10,7 @@ namespace System.Activities.Presentation
     using System.Linq;
     using System.Windows.Input;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     //DefaultCommandExtensionCallback - provides default key input gestures for most of the 

@@ -5,7 +5,7 @@
 //From \\authoring\Sparkle\Source\1.0.1083.0\Common\Source\Framework\Properties
 namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.PropertyInspector
 {
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.ComponentModel;
     using System.Diagnostics;
     using System.Collections.Generic;

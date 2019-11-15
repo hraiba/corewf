@@ -2,7 +2,7 @@ namespace System.Activities.Presentation.PropertyEditing
 {
     using System;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
     using System.Activities.Runtime;
     using System.Activities.Internals;

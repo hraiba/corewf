@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.FreeFormEditing
     using System.Activities.Presentation;
     using System.Activities.Presentation.View;
     using System.Activities.Presentation.Internal.PropertyEditing;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Linq;
     using System.Activities.Presentation.Model;
 

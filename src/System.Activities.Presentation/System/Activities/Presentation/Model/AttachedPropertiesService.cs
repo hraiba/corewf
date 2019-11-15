@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Model
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     public class AttachedPropertiesService

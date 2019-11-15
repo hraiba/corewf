@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Model {
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// ModelMemberCollection is an abstract base class that 
     /// ModelPropertyCollection and ModelEventCollection derive from.

@@ -19,7 +19,7 @@ namespace System.Activities.Presentation.View
     using System.IO.Packaging;
     using System.Printing;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Automation;
     using System.Windows.Controls;

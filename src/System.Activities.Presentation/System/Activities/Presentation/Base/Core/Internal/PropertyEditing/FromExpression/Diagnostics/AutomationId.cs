@@ -14,7 +14,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System;
     using System.Windows;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // This DP is intended to be used in XAML property binding scenarios since FrameworkElement.Name is no longer available.
     // </summary>

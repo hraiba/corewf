@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -7,7 +7,7 @@
 namespace System.Activities.Presentation.View
 {
     using System;
-
+    using System.Activities.Internals;
     /// <summary>
     /// Arguments for view changed event
     /// </summary>

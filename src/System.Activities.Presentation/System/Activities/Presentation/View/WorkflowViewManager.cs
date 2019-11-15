@@ -19,7 +19,7 @@ namespace System.Activities.Presentation.View
     using System.Collections.ObjectModel;
     using System.Collections;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.ComponentModel.Design;
     using System.Activities.Presentation.Annotations;
 

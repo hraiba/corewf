@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -17,7 +17,7 @@ namespace System.Activities.Presentation.View
     using System.IO;
     using System.Linq;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Runtime.Versioning;
     using System.Windows;
     using System.Windows.Controls;

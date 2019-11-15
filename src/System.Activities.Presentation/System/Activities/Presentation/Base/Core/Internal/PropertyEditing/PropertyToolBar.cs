@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing
     using System.Windows;
     using System.Windows.Automation.Peers;
     using System.Windows.Controls;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     using System.Activities.Presentation.Internal.PropertyEditing.Automation;
     using System.Activities.Presentation.Internal.PropertyEditing.State;

@@ -8,9 +8,9 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Windows.Data;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // A converter that takes a value of a property and a boolean indicating whether it
     // is being edited and returns a string to use for the editor tool tip.

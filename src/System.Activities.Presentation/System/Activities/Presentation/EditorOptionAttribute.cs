@@ -1,10 +1,10 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
 namespace System.Activities.Presentation.PropertyEditing
 {
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Collections;
     using System.Activities.Runtime;
 

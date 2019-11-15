@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Activities.Presentation.PropertyEditing;
     using System.Diagnostics;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     internal interface IPropertyInspector
     {
         bool IsCategoryExpanded(string categoryName);

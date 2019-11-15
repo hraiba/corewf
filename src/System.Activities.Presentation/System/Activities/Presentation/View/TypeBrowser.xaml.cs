@@ -22,7 +22,7 @@ namespace System.Activities.Presentation.View
     using System.Activities.Presentation.Hosting;
     using System.Windows.Threading;
     using Microsoft.Activities.Presentation;
-
+    using System.Activities.Internals;
     internal sealed partial class TypeBrowser : DialogWindow
     {
         static readonly DependencyProperty SelectedTypeProperty =

@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation
 {
     using System.Activities.Internals;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Runtime.Versioning;
     using Microsoft.Activities.Presentation;
 

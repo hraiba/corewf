@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.View
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Data;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     class ExpressionValueEditor : DialogPropertyValueEditor
     {

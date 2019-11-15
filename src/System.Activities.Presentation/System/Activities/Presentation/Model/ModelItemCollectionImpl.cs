@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Model
     using System.Windows.Markup;
     using System.Activities.Presentation.Services;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     // This class provides the implementation for the ModelItemCollection. This provides

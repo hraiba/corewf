@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.State
     using System;
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Simple state object that knows how to remember state for a single property.

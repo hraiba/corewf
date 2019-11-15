@@ -1,4 +1,4 @@
-﻿// <copyright>
+// <copyright>
 //   Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 
@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Activities.Presentation.View;
     using System.ComponentModel;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows.Markup;
     using System.Xaml;
 

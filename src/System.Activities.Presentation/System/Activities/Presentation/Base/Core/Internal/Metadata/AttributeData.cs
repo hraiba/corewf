@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Internal.Metadata
     using System.Collections.Generic;
     using System.Text;
     using System.Diagnostics;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // This class groups Attribute with its AttributeUsageAttributes that we care about.
     // Basically, each Attribute has characteristics that are useful to know about,

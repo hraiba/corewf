@@ -9,7 +9,7 @@ namespace System.Activities.Presentation
     using System.Text;
     using System.Activities.Presentation.View;
     using System.Activities.Presentation.Model;
-
+    using System.Activities.Internals;
     public abstract class UndoUnit
     {
         EditingContext context;

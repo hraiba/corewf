@@ -7,7 +7,6 @@ namespace System.Activities.Presentation.Model
     using System;
     using System.Collections.Generic;
     using System.Text;
-    using System.Runtime;
     using System.Activities.Runtime;
 
     [Fx.Tag.XamlVisible(false)]

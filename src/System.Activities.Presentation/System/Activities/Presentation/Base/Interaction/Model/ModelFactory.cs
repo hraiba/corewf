@@ -5,12 +5,12 @@ namespace System.Activities.Presentation.Model {
     using System.Activities.Presentation;
 
     using System;
-
+    using System.Activities.Internals;
     /// <summary>
     /// The ModelFactory class should be used to create instances 
     /// of items in the designer. ModelFactory is designed to be 
     /// a static API for convenience.  The underlying implementation 
-    /// of this API simply calls through to the ModelService’s 
+    /// of this API simply calls through to the ModelServiceï¿½s 
     /// CreateItem method.
     /// </summary>
     public static class ModelFactory {

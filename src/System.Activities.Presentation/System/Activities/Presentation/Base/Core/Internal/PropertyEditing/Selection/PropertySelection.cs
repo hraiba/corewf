@@ -11,10 +11,10 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Selection
     using System.Windows.Input;
     using System.Windows.Media;
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Internal.PropertyEditing.Selection;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // This is a container for attached properties used by PropertyInspector to track and manage
     // property selection.  It is public because WPF requires that attached properties used in XAML

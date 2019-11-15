@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Model
     using System.Diagnostics.CodeAnalysis;
     using System.Windows;
     using System.Collections.Generic;
-
+    using System.Activities.Internals;
     // <summary>
     // The ModelItem class represents a single item in the editing model.  An
     // item can be anything from a Window or Control down to a color or integer.

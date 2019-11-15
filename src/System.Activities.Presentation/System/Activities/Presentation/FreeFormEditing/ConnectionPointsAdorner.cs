@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.FreeFormEditing
     using System.Windows.Documents;
     using System.Windows.Input;
     using System.Windows.Media;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal class ConnectionPointsAdorner : Adorner
     {

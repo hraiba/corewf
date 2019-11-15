@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Converters
 {
     using System.Activities.Presentation.Model;
     using System.Windows.Data;
-
+    using System.Activities.Internals;
     internal class ModelItemToAnnotationEnabledConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, Globalization.CultureInfo culture)

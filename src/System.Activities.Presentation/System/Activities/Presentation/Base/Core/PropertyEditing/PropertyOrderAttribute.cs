@@ -1,7 +1,7 @@
 namespace System.Activities.Presentation.PropertyEditing {
     using System;
     using System.ComponentModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
     using System.Activities.Runtime;
     using System.Activities.Internals;

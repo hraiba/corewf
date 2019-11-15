@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -11,7 +11,7 @@ namespace System.Activities.Presentation
     using System.Collections.ObjectModel;
     using System.ComponentModel;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Runtime.Versioning;
     using System.ServiceModel.Activities;
     using Microsoft.Activities.Presentation;

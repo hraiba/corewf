@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Controls;
     using System.Windows.Data;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Maps a bool to a FontWeight. True becomes Bold, and False is Normal.

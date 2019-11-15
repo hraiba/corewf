@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.View
     using System.Diagnostics;
     using System.Globalization;
     using System.Windows.Data;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     class TypeToStringValueConverter : IValueConverter
     {

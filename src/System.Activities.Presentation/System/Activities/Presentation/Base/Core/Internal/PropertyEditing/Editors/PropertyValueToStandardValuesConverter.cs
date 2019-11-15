@@ -11,11 +11,12 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Globalization;
     using System.Windows.Data;
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
     using System.Activities.Presentation.PropertyEditing;
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
+    using System.Activities.Internals;
 
     // <summary>
     // Retrieves StandardValues from a passed in PropertyValue, making sure that if a TypeConverter

@@ -7,7 +7,7 @@ namespace System.Activities.Presentation
     using System.Activities.Presentation.Internal.PropertyEditing;
     using System.Activities.Presentation.View;
     using System.Diagnostics;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Text;
     using System.Threading;
     using System.Windows;

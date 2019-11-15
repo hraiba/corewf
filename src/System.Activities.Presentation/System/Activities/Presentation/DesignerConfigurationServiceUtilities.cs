@@ -1,10 +1,10 @@
-﻿// <copyright>
+// <copyright>
 //   Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 
 namespace System.Activities.Presentation
 {
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal static class DesignerConfigurationServiceUtilities
     {

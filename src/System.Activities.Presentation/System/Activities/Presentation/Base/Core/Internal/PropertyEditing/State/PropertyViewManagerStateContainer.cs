@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.State
     using System.Text;
     using System.Activities.Presentation.Internal.PropertyEditing.Views;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // StateContainer for current selection of IPropertyViewManager
     // </summary>

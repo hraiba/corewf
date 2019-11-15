@@ -13,7 +13,7 @@ namespace System.Activities.Presentation
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Automation.Peers;
     using System.Windows.Controls;

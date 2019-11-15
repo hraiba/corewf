@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.View
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.ServiceModel.Activities;
     using System.Windows;
     using System.Windows.Controls;

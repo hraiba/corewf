@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// This class provides a data model for the underlying property value.
     /// </summary>

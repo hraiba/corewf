@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Collections.Generic;
     using System.IO;
     using System.Globalization;
-
+    using System.Activities.Internals;
     // This is helper class which tries to load and create tool items from flat text file.
     // The content of a file must contain following, colon separated values
     // 1.) fully qualified class name, which is flagged with ToolboxItemAttribute 

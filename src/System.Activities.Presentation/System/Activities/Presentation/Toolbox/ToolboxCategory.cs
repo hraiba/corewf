@@ -1,4 +1,4 @@
-﻿//------------------------------------------------------------
+//------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Collections.Specialized;
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     //[SuppressMessage(FxCop.Category.Design, "CA1039:ListsAreStronglyTyped",
     //    Justification = "The nongeneric IList implementation is required for XAML support. It is implmented explicitly.")]

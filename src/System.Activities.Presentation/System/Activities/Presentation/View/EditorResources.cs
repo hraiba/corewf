@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.View
     using System.Linq;
     using System.Text;
     using System.Windows;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     class EditorResources
     {

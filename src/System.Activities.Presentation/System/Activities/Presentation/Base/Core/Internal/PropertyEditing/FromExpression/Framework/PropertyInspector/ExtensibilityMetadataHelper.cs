@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Activities.Presentation.PropertyEditing;
     using System.Collections;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
 
     internal static class ExtensibilityMetadataHelper

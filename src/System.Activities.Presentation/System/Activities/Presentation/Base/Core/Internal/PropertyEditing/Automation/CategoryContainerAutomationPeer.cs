@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Automation
     using System.Windows.Controls;
     using System.Windows.Media;
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.PropertyEditing;
     using System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.PropertyInspector;
 

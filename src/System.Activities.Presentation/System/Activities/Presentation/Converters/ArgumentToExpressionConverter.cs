@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Converters
     using System.Globalization;
     using System.Windows.Data;
     using System.Activities.Presentation.Model;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Services;
 
     // This type converter converts from Argument to Argument.Expression

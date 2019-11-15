@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Selection
     using System.Activities.Presentation.PropertyEditing;
 
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
-
+    using System.Activities.Internals;
     // <summary>
     // Helper class that knows how to construct and interpret SelectionPaths leading
     // to category editors.

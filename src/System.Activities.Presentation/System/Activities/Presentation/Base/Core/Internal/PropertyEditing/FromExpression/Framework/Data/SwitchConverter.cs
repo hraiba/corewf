@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Markup;
     using System.Windows.Media;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // Transformer which maps from input values to output values, based on a list of SwitchCase children.
     // This isn't strictly a C-style 'switch' statement, since cases aren't guaranteed to be unique.

@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Model
     using System.Collections.Generic;
     using System.Text;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Services;
 
     class PropertyChange : ModelChange

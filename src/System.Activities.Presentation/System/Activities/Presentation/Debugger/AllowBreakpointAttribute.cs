@@ -7,7 +7,6 @@ namespace System.Activities.Presentation.Debug
     using System.Activities;
     using System.Activities.Presentation.View;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     /// <summary>
     /// AllowBreakpointAttribute is an attribute to describe whether a type allow a breakpoint to be set on it.

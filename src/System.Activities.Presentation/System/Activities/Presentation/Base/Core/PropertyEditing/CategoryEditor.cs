@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Windows.Media;
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// Derive this class to provide a custom CategoryEditor for a set of Properties in a property
     /// browser host.

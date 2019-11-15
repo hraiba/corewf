@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -6,7 +6,6 @@ namespace System.Activities.Presentation.View
 {
     using System.Activities.Presentation.Model;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     [Fx.Tag.XamlVisible(false)]
     public class ViewStateChangedEventArgs : EventArgs

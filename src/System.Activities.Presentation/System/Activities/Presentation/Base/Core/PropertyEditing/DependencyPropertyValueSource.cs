@@ -1,7 +1,6 @@
 namespace System.Activities.Presentation.PropertyEditing {
     using System;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     /// <summary>
     /// Concrete implementation of PropertyValueSource for a PropertyEntry that represents a Dependency Property

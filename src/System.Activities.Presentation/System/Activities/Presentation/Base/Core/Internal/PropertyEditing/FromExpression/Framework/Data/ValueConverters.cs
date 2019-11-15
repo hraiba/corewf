@@ -32,7 +32,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Data;
     using System.Windows.Media;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal static class ValueConverterUtilities
     {

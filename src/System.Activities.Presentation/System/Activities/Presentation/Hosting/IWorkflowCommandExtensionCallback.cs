@@ -1,11 +1,10 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
 namespace System.Activities.Presentation.Hosting
 {
     using System.Activities.Runtime;
-    using System.Runtime;
     using System.Windows.Input;
 
     [Fx.Tag.XamlVisible(false)]

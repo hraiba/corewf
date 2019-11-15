@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.Metadata
     using System.Collections.Generic;
     using System.Globalization;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     /// <summary>
     /// A helper class to provide additional functionalities regarding Activity arguments.

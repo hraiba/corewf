@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Converters
     using System;
     using System.Collections.Generic;
     using Microsoft.VisualBasic.Activities;
-
+    using System.Activities.Internals;
     class VisualBasicValueSearchableStringConverter : SearchableStringConverter
     {
         public override IList<string> Convert(object value)

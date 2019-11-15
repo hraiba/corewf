@@ -16,7 +16,7 @@ namespace System.Activities.Presentation
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Activities.Presentation.Internal.PropertyEditing;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Reflection;
     using System.Activities.Presentation.Sqm;
     using System.Collections.Generic;

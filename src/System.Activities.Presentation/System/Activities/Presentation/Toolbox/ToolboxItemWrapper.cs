@@ -19,7 +19,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Windows;
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
-
+    using System.Activities.Internals;
     // This class is a wrapper for ToolboxItem objects. It adds support
     // for cate----zation of toolbox items. ResolveToolboxItem method
     // establishes link between actual ToolboxItem instance and Tool representation

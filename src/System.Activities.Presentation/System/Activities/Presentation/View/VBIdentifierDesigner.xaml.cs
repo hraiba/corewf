@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -22,7 +22,7 @@ namespace System.Activities.Presentation.View
     using System.Windows.Automation.Peers;
     using System.Xml.Linq;
     using System.Reflection;
-
+    using System.Activities.Internals;
     partial class VBIdentifierDesigner : UserControl
     {
         public static readonly DependencyProperty IdentifierProperty =

@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Globalization;
     using System.Windows;
     using System.Windows.Automation;
-    using System.Runtime;
+    using System.Activities.Runtime;
     sealed class FlagPanel : StackPanel
     {
         public static readonly DependencyProperty FlagStringProperty =

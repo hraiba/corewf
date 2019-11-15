@@ -5,7 +5,7 @@
 namespace System.Activities.Presentation
 {
     using System.Activities.Presentation.Model;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal class EditingScopeUndoUnit : UndoUnit
     {

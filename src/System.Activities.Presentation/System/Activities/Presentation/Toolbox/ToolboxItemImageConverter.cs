@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Windows.Media;
     using System.Windows.Media.Imaging;
     using Microsoft.Tools.Common;
-
+    using System.Activities.Internals;
     //This class is responsible for converting 'old' bitmap style, contained 
     //in ToolboxItem objects to WPF compatible ImageSource object
 

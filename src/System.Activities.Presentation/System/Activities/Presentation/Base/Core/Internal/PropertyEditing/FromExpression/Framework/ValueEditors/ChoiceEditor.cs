@@ -17,7 +17,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Media;
     using System.Windows.Controls.Primitives;
     using System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.Data;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Determines the view type of the choice editor.

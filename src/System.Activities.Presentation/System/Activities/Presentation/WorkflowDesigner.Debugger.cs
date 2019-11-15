@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -9,7 +9,7 @@ namespace System.Activities.Presentation
     using System.Activities.Presentation.Debug;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.Xaml;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Xaml;
 
     public partial class WorkflowDesigner

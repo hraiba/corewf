@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Activities.Runtime;
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
 
     // This class represents event arguments for tool created event

@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.View
     using System.Activities.Presentation;
     using System.Windows.Data;
     using System.Activities.Presentation.Model;
-
+    using System.Activities.Internals;
     internal class BreadCrumbTextConverter : IMultiValueConverter
     {
         const int MaxDisplayNameLength = 20;

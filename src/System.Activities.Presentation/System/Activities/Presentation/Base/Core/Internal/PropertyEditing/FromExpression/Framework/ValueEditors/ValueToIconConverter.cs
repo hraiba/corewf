@@ -11,6 +11,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Media;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
+    using System.Activities.Internals;
 
     // <summary>
     // Implement this interface to provide icons to the ValueToIconProvider

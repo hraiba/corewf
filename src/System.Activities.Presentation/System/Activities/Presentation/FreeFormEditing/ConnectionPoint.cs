@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.FreeFormEditing
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Windows;
-    using System.Runtime;
+    using System.Activities.Runtime;
     class ConnectionPoint : UIElement
     {
         public static readonly DependencyProperty LocationProperty = DependencyProperty.Register("Location", typeof(Point), typeof(ConnectionPoint));

@@ -6,7 +6,7 @@ namespace System.Activities.Presentation
 {
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     [Serializable]
     public class ClipboardData

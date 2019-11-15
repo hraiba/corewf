@@ -12,7 +12,7 @@ namespace System.Activities.Presentation
     using System.Activities.Statements;
     using System.Collections.Generic;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Automation.Peers;
     using System.Windows.Controls;

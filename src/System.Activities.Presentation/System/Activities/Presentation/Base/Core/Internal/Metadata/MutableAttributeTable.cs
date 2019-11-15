@@ -15,10 +15,10 @@ namespace System.Activities.Presentation.Internal.Metadata
     using System.Reflection;
     using System.Windows;
     using System.Activities.Presentation.Metadata;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     //
     // This class is used by the attribute table builder to
     // add attributes.  It is then handed to AttributeTable

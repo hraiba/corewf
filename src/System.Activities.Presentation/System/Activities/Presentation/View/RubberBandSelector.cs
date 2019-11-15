@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.View
     using System.Activities.Presentation.Internal.PropertyEditing;
     using System.Activities.Presentation.Model;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Documents;
     using System.Windows.Input;

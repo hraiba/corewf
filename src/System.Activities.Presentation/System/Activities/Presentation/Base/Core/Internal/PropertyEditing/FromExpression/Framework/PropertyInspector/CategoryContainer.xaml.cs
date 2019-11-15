@@ -17,10 +17,10 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Activities.Presentation.PropertyEditing;
     using System.Collections.ObjectModel;
     using System.ComponentModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     //Cider change [CLSCompliant(false)]
     internal partial class CategoryContainer : ContentControl
     {

@@ -1,4 +1,4 @@
-﻿// <copyright>
+// <copyright>
 //   Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 
@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Xaml
 {
     using System;
     using System.Activities.Debugger;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     [Serializable]
     internal static class SourceLocationExtensions

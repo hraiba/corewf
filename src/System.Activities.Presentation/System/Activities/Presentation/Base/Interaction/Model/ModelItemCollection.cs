@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.Model {
     using System.Collections.Specialized;
     using System.Globalization;
     using System.Windows;
-
+    using System.Activities.Internals;
     /// <summary>
     /// ModelItemCollection derives from ModelItem and implements 
     /// support for a collection of items.  
@@ -26,7 +26,7 @@ namespace System.Activities.Presentation.Model {
     /// defined on the collection.  The Item property represents all 
     /// the items in the collection and is defined as type 
     /// IEnumerable of ModelItem.  All items in the collection have 
-    /// their Source property set to this property.  The property’s metadata 
+    /// their Source property set to this property.  The propertyï¿½s metadata 
     /// marks it non browsable and non-serializable.  The Item property is a 
     /// "pseudo" property because it is not actually set on the model.  The 
     /// value it points to is the ModelItemCollection itself.
@@ -195,7 +195,7 @@ namespace System.Activities.Presentation.Model {
         /// Moves the item at fromIndex to toIndex.  The value for toIndex is 
         /// always where you want the item to be according to how the collection 
         /// currently sits.  This means that if you are moving an item to a higher 
-        /// index you don’t have to account for the fact that the indexes will 
+        /// index you donï¿½t have to account for the fact that the indexes will 
         /// shuffle when the item is removed from its current location.
         /// </summary>
         /// <param name="fromIndex">
@@ -239,7 +239,7 @@ namespace System.Activities.Presentation.Model {
         /// collection.  The Item property represents all the items in 
         /// the collection and is defined as type IEnumerable of ModelItem.  
         /// All items in the collection have their Source property set to 
-        /// this property.  The property’s metadata marks it non browsable 
+        /// this property.  The propertyï¿½s metadata marks it non browsable 
         /// and non-serializable.  The Item property is a "pseudo"property 
         /// because it is not actually set on the model.  The value it points 
         /// to is the ModelItemCollection itself.

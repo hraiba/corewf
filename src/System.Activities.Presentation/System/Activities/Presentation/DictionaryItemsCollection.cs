@@ -8,7 +8,7 @@ namespace System.Activities.Presentation
     using System.Activities.Presentation.Model;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     class DictionaryItemsCollection<TKey, TValue> : Collection<ModelItemKeyValuePair<TKey, TValue>>, IItemsCollection
     {

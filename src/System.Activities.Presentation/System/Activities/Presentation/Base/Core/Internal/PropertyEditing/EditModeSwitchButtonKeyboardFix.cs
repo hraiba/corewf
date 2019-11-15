@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing
     using System.Windows.Input;
     using System.Windows.Threading;
     using System.Activities.Presentation.PropertyEditing;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
     using System.Activities.Internals;
 

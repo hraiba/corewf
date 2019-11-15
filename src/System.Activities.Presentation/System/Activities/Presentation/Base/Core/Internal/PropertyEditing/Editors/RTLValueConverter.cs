@@ -15,8 +15,8 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Activities.Presentation.Internal.PropertyEditing.Resources;
     using System.Activities.Presentation.PropertyEditing;
     using System.Activities.Presentation;
-    using System.Runtime;
-
+    using System.Activities.Runtime;
+    using System.Activities.Internals;
     // <summary>
     // Checks the property entry and converts it
     // to appropriate FlowDirection value which is returned back.

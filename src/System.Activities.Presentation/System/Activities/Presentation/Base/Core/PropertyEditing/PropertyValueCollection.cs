@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.PropertyEditing
     using System.Collections;
     using System.Collections.Specialized;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// This class encapsulates a collection of PropertyValue instances.  
     /// It is used for properties whose type is a collection.

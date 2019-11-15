@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Hosting
     using System;
     using System.Windows;
     using System.Windows.Interop;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using Microsoft.Tools.Common;
     using System.Activities.Runtime;

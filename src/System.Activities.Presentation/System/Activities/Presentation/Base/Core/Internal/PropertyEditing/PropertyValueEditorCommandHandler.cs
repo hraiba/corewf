@@ -10,12 +10,12 @@ namespace System.Activities.Presentation.Internal.PropertyEditing
     using System.Windows.Input;
 
     using System.Activities.Presentation;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.PropertyEditing;
 
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
-
+    using System.Activities.Internals;
     // <summary>
     // Container for standard PropertyValueEditorCommand handlers.  These handlers need to do their
     // work both for the PropertyInspector control as well as for any standard WPF dialog editor

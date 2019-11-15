@@ -9,7 +9,7 @@ namespace System.Activities.Presentation
     using System.Windows;
     using System.Windows.Data;
     using System.Activities.Presentation.Model;
-
+    using System.Activities.Internals;
     //Formats text strings
     internal sealed class TextFormattingConverter : IValueConverter
     {

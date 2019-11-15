@@ -1,4 +1,4 @@
-﻿// <copyright>
+// <copyright>
 //   Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
 
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.View
     using System.Activities.Validation;
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using Microsoft.Activities.Presentation;
     using Microsoft.VisualBasic.Activities;
 

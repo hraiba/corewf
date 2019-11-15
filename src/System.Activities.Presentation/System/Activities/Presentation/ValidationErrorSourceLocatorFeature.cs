@@ -6,7 +6,7 @@ namespace System.Activities.Presentation
 {
     using System.Activities.Presentation.Validation;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal abstract class ValidationErrorSourceLocatorFeature : Feature
     {

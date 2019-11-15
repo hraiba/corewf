@@ -5,7 +5,7 @@
 namespace System.Activities.Presentation.Validation
 {
     using System.Activities.Validation;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Threading;
     using System.Windows.Threading;
 

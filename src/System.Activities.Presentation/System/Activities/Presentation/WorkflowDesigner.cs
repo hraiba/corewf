@@ -27,7 +27,7 @@ namespace System.Activities.Presentation
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.IO;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Runtime.Versioning;
     using System.Security;
     using System.Security.Policy;

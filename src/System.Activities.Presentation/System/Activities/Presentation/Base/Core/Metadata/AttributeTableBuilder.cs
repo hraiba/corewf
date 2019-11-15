@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Metadata
     using System.Reflection;
     using System.Windows;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // An attribute table is a read only blob of data.  How
     // do you create one?  We will have a class called an

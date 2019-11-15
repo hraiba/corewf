@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Resources
     using System;
     using System.Windows;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // Helper utilities for accessing values in ResourceDictionaries of controls
     // </summary>

@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Model {
 
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     using System;
     using System.Collections;

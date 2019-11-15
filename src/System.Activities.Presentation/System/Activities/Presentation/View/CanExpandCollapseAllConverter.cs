@@ -1,4 +1,4 @@
-﻿//------------------------------------------------------------
+//------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.View
     using System.Globalization;
     using System.Windows.Data;
     using System.Windows;
-
+    using System.Activities.Internals;
     sealed class CanExpandCollapseAllConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

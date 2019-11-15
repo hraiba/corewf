@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Selection
     using System.Activities.Presentation;
 
     using Blend = System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.PropertyInspector;
-
+    using System.Activities.Internals;
     // <summary>
     // Helper class used to manage the selection stop behavior of a given CategoryContainer's basic
     // and advanced sections.  It deals with both expanding and collapsing of the specified section

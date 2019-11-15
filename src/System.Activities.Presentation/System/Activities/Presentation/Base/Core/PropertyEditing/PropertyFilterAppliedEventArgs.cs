@@ -2,7 +2,6 @@ namespace System.Activities.Presentation.PropertyEditing
 {
     using System;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     /// <summary>
     /// EventArgs used to fire an event that some IPropertyFilter has been applied

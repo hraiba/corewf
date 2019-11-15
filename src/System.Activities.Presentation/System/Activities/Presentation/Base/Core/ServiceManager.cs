@@ -1,4 +1,4 @@
-﻿namespace System.Activities.Presentation
+namespace System.Activities.Presentation
 {
 
     using System.Activities.Presentation.Internal.Properties;
@@ -9,7 +9,7 @@
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// The service manager implements IServiceProvider and provides access 
     /// to services offered by the editing context. 

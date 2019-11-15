@@ -1,4 +1,4 @@
-﻿//------------------------------------------------------------
+//------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //------------------------------------------------------------
 
@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Expressions
     using System.Windows.Controls;
     using System.Activities.Presentation.Model;
     using System.Windows;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows.Automation.Peers;
     using System.Diagnostics.CodeAnalysis;
     using System.Xaml;

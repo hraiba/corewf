@@ -13,12 +13,12 @@ namespace System.Activities.Presentation.Toolbox
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Drawing.Design;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Input;
     using System.Windows.Markup;
-
+    using System.Activities.Internals;
     // This class is responsible for rendering cate----ezed tools collection
     // It also provides methods for notifing user about tool selection/creation events
 

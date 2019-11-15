@@ -4,7 +4,6 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Text;
     using System.Windows;
 
-    using System.Runtime;
     using System.Activities.Runtime;
 
     /// <summary>

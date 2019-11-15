@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 namespace System.Activities.Presentation.View
@@ -8,13 +8,14 @@ namespace System.Activities.Presentation.View
     using System.Diagnostics;
     using System.IO;
     using System.Windows;
-    using System.Runtime;
+    using System.Activities.Runtime;
 #if DEBUG_DUMP
     using System.Windows.Controls;
     using System.Windows.Shapes;
     using System.Windows.Media;
     using System.Xml;
 #endif
+    using System.Activities.Internals;
 
 
     /// <summary>
@@ -626,7 +627,7 @@ namespace System.Activities.Presentation.View
             this.xw.WriteAttributeString(name, value);
         }
 
-    #region IDisposable Members
+#region IDisposable Members
 
         public void Dispose()
         {
@@ -646,7 +647,7 @@ namespace System.Activities.Presentation.View
             }
         }
 
-    #endregion
+#endregion
     }
 #endif
 

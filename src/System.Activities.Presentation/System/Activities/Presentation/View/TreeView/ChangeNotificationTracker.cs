@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.View.TreeView
     using System.Activities.Presentation.Model;
     using System.Collections.Generic;
     using System.Collections.Specialized;
-
+    using System.Activities.Internals;
     class ChangeNotificationTracker
     {
         private bool? delayUpdates = null;

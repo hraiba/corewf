@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.Model
     using System.Linq;
     using System.Activities.Presentation;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     public delegate object PropertyValueMorphHelper(ModelItem originalValue, ModelProperty newModelProperty);

@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Controls;
     using System.Windows.Data;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Maps an Integer to Visilbity. 0 becomes Hidden, non-zero becomes Visible.

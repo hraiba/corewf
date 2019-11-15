@@ -14,7 +14,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Controls;
     using System.Windows.Data;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Converts non-null to true, and null to false.

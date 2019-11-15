@@ -5,7 +5,7 @@ namespace System.Activities.Presentation
     using System.Collections.Generic;
     using System.Text;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// OrderToken is a generic class used to identify the sort
     /// order of hierarchical items.  OrderTokens can be used

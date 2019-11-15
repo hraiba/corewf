@@ -19,7 +19,7 @@ namespace System.Activities.Presentation.Model
     using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Text;
     using Microsoft.Activities.Presentation.Xaml;
 

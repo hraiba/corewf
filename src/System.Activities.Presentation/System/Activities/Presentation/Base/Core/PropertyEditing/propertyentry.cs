@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.PropertyEditing
     using System;
     using System.Diagnostics;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// The PropertyEntry class provides additional, mostly type-specific data for a property.
     /// </summary>

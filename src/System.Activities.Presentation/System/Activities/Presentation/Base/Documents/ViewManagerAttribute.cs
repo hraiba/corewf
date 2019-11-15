@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.Documents
     using System.Activities.Presentation.Internal.Properties;
     using System;
     using System.Globalization;
-
+    using System.Activities.Internals;
     /// <summary>
     /// This attribute can be placed on the root of a model
     /// object graph to specify what view manager should be

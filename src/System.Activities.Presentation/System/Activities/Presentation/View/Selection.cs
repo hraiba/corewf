@@ -1,6 +1,6 @@
 namespace System.Activities.Presentation.View {
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
     using System.Activities.Presentation.Model;

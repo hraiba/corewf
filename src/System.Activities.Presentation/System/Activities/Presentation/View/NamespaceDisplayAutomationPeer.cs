@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +7,6 @@ using System.Windows;
 using System.Runtime.InteropServices;
 using System.Xml.Linq;
 using System.Globalization;
-using System.Runtime;
 using System.Activities.Runtime;
 
 namespace System.Activities.Presentation.View

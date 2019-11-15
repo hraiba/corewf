@@ -5,7 +5,7 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Collections.ObjectModel;
     using System.Activities.Presentation;
     using System;
-
+    using System.Activities.Internals;
     /// <summary>
     /// The CategoryEntry class is a part of the property editing object model.  It models a 
     /// Category which has a localized name along with a collection of properties.

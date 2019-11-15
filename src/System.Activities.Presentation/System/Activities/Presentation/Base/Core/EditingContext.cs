@@ -6,7 +6,7 @@ namespace System.Activities.Presentation
 {
     using System.Activities.Presentation.Internal.Properties;
     using System;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Collections.Generic;
     using System.ComponentModel;
     using System.Diagnostics;

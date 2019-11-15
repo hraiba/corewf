@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Model
     using System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.Data;
     using System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.PropertyInspector;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // Cider's concrete implementation of CategoryEntry (CategoryBase comes from Sparkle
     // and it has a few extra goodies that we want to reuse).  This class implements

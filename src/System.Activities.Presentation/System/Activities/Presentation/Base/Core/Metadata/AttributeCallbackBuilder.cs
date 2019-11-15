@@ -4,7 +4,7 @@
 
 namespace System.Activities.Presentation.Metadata 
 {
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     using System.Activities.Presentation.Internal.Metadata;
     using System.Activities.Presentation.Internal.Properties;

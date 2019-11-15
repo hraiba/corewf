@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Internal.Metadata
     using System.Collections;
     using System.Globalization;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // Helper class that knows how to look up the base implementation of a given MemberInfo,

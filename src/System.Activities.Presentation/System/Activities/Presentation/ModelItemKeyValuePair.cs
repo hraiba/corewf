@@ -6,7 +6,6 @@ namespace System.Activities.Presentation
 {
     using System.Collections.ObjectModel;
     using System.Collections.Generic;
-    using System.Runtime;
     using System.Activities.Runtime;
 
     class ModelItemKeyValuePair<TKey, TValue>

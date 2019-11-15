@@ -5,7 +5,7 @@
 namespace Microsoft.Activities
 {
     using System;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal static class SharedFx
     {

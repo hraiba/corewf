@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Model
     using System.Dynamic;
     using System.Linq;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Markup;
 

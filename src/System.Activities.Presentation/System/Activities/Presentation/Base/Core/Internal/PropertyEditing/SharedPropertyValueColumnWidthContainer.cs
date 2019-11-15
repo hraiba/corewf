@@ -8,7 +8,6 @@ namespace System.Activities.Presentation.Internal.PropertyEditing
     using System.Diagnostics.CodeAnalysis;
     using System.Windows;
     using System.Activities.Presentation;
-    using System.Runtime;
     using System.Activities.Runtime;
     using System.Activities.Internals;
 

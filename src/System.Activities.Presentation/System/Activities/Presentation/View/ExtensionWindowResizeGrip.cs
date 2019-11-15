@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.View
     using System.Activities.Runtime;
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Controls;
     using System.Windows.Input;

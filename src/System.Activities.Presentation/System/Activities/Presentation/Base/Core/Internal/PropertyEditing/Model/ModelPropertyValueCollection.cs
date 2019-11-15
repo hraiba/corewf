@@ -16,8 +16,8 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Model
     using System.Activities.Presentation.PropertyEditing;
 
     using System.Activities.Presentation.Internal.Properties;
-    using System.Runtime;
-
+    using System.Activities.Runtime;
+    using System.Activities.Internals;
     // <summary>
     // Collection of ModelPropertyValues used to model collections of ModelItems
     // </summary>

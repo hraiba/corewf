@@ -14,7 +14,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Globalization;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     [SuppressMessage("Microsoft.Performance", "CA1812:AvoidUninstantiatedInternalClasses")]
     internal class VisibilityAndConverter : IMultiValueConverter
     {

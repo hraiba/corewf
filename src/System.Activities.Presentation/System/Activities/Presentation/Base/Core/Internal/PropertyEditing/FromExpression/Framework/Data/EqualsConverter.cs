@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows;
     using System.Windows.Data;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     internal class EqualsConverter : DependencyObject, IValueConverter
     {
         private object defaultValue = false, matchValue = true;

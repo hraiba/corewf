@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.PropertyEditing
     using System.ComponentModel;
     using System.Collections.Generic;
     using System.Activities.Presentation;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Internal.PropertyEditing.Editors;
     using System.Activities.Presentation.Internal.PropertyEditing;
     using System.Activities.Runtime;

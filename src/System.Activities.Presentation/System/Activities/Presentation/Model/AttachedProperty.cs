@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Model
     using System.Linq;
     using System.Text;
     using System.Activities.Presentation.Model;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Runtime;
     using System.Activities.Internals;

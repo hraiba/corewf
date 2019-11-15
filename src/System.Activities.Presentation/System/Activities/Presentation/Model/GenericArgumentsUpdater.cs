@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Model
     using System.Activities;
     using System.Diagnostics;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.View;
     using System.Windows.Threading;
 

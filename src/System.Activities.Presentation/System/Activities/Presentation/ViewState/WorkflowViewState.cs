@@ -7,7 +7,7 @@
 namespace System.Activities.Presentation.ViewState
 {
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Xaml;
 
     /// <summary>

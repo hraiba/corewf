@@ -11,7 +11,6 @@ namespace System.Activities.Presentation.Model {
     using System.ComponentModel;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
-    using System.Runtime;
     using System.Activities.Runtime;
 
     /// <summary>

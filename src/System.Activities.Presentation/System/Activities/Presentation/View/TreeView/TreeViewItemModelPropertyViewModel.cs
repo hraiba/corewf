@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // <copyright company="Microsoft Corporation">
 //     Copyright (c) Microsoft Corporation.  All rights reserved.
 // </copyright>
@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.View.TreeView
     using System.Activities.Presentation.Internal.PropertyEditing;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.View.OutlineView;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal sealed class TreeViewItemModelPropertyViewModel : TreeViewItemViewModel<ModelProperty>
     {

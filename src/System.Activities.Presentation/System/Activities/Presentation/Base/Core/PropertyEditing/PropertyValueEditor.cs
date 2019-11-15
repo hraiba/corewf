@@ -6,7 +6,6 @@ namespace System.Activities.Presentation.PropertyEditing {
     using System.Windows;
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation;
-    using System.Runtime;
     using System.Activities.Runtime;
     using System.Activities.Internals;
 

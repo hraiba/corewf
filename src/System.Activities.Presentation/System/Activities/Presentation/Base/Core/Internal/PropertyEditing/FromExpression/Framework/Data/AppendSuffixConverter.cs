@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows;
     using System.Windows.Data;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     // <summary>
     // (object-to-string) Takes an object and returns a new string that is the object's ToString()

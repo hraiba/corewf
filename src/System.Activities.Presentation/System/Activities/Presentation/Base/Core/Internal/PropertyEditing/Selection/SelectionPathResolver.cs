@@ -9,7 +9,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Selection
     using System.Windows;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // Helper static class that attempts to resolve a given SelectionPath into the corresponding
     // visual in the CategoryList control.

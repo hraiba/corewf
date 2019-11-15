@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Converters
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
     using System.Activities.Presentation.Model;
     using System.Globalization;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.ServiceModel.Activities;
     using System.Windows.Data;
 

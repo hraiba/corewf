@@ -1,10 +1,9 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 namespace System.Activities.Presentation.PropertyEditing
 {
     using System.Activities.Runtime;
-    using System.Runtime;
 
     [Fx.Tag.XamlVisible(false)]
     [AttributeUsage(AttributeTargets.Property | AttributeTargets.Class)]

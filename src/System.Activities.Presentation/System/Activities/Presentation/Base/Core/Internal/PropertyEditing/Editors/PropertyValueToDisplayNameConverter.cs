@@ -15,7 +15,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
 
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
     using System.Activities.Presentation.Internal.Properties;
-
+    using System.Activities.Internals;
     // <summary>
     // ValueConverter that takes an instance of PropertyValue and returns a display name for
     // it.  The returned name consists of the value Type name as well as its x:Name property

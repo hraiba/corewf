@@ -8,7 +8,6 @@ namespace System.Activities.Presentation.Model
 {
     using System.Activities.Internals;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     internal static class ModelItemHelper
     {

@@ -20,7 +20,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing
     using System.Activities.Presentation.Model;
     using View = System.Activities.Presentation.View;
     using System.Activities.Presentation.PropertyEditing;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     using System.Activities.Presentation.Internal.PropertyEditing.Automation;
     using System.Activities.Presentation.Internal.PropertyEditing.FromExpression.Framework.ValueEditors;

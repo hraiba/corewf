@@ -4,7 +4,7 @@
 
 namespace System.Activities.Presentation
 {
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Diagnostics.CodeAnalysis;
     using System.Runtime.InteropServices;

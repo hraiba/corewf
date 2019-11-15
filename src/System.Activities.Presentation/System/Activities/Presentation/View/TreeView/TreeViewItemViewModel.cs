@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -13,9 +13,9 @@ namespace System.Activities.Presentation.View.TreeView
     using System.ComponentModel;
     using System.Globalization;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows.Media;
-
+    using System.Activities.Internals;
     class TreeViewItemViewModel : INotifyPropertyChanged
     {
         string nodePrefixText = string.Empty;

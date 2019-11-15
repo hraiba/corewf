@@ -1,4 +1,4 @@
-﻿//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //-----------------------------------------------------------------------------
 
@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.Hosting
     using System.Text;
     using System.Reflection;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Model;
 
 

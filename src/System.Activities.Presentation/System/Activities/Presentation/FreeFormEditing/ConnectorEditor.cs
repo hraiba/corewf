@@ -12,7 +12,7 @@ namespace System.Activities.Presentation.FreeFormEditing
     using System.Windows.Controls;
     using System.Windows.Documents;
     using System.Windows.Input;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Windows.Media;
     using System.Activities.Presentation.Internal.PropertyEditing;

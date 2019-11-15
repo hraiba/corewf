@@ -22,9 +22,9 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Model
     using System.Activities.Presentation.Services;
 
     using System.Activities.Presentation.Internal.Properties;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Internal.PropertyEditing.Editors;
-
+    using System.Activities.Internals;
     // <summary>
     // ModelPropertyEntry is a wrapper around Cider's ModelProperty and that
     // exposes its functionality through the PropertyEntry object model.  It handles

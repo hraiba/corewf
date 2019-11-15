@@ -1,11 +1,11 @@
-﻿namespace System.Activities.Presentation.View
+namespace System.Activities.Presentation.View
 {
     using System.Windows.Data;
     using System.Activities.Presentation.PropertyEditing;
     using System.Activities.Presentation.Internal.PropertyEditing.Model;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.Converters;
-
+    using System.Activities.Internals;
     class PropertyEntryToEditingContextConverter : IValueConverter
     {
         #region IValueConverter Members

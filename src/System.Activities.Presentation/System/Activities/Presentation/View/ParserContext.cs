@@ -13,10 +13,10 @@ namespace System.Activities.Presentation.View
     using System.Globalization;
     using System.Linq;
     using System.Reflection;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows.Markup;
     using System.Xaml;
-
+    using System.Activities.Internals;
 
 
     class ParserContext : LocationReferenceEnvironment, IValueSerializerContext, IXamlNameResolver, INamespacePrefixLookup, IXamlNamespaceResolver

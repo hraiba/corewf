@@ -4,7 +4,7 @@ namespace System.Activities.Presentation.PropertyEditing
     using System.Collections.Generic;
     using System.Activities.Presentation.Internal;
     using System.Activities.Presentation.Internal.Properties;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Runtime;
     using System.Activities.Internals;

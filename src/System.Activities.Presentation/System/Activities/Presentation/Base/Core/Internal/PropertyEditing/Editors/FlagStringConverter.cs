@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Windows.Data;
     using System.Globalization;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Collections;
     using System.Activities.Internals;
 

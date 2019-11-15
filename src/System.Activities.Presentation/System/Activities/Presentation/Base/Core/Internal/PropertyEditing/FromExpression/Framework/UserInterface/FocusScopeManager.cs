@@ -13,10 +13,10 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System.Windows.Controls.Primitives;
     using System.Windows.Threading;
     using System.Windows.Media;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     internal delegate void ReturnFocusCallback();
 
     internal class FocusScopeManager

@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation
     using System.Globalization;
     using System.Windows.Data;
     using Microsoft.Activities.Presentation;
-
+    using System.Activities.Internals;
     internal sealed class TypeNameConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

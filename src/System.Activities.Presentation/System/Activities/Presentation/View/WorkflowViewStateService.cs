@@ -8,7 +8,6 @@ namespace System.Activities.Presentation.View
     using System.Diagnostics.CodeAnalysis;
     using System.Xaml;
     using System.Activities.Presentation.Model;
-    using System.Runtime;
     using System.Activities.Runtime;
     using System.Activities.Internals;
 

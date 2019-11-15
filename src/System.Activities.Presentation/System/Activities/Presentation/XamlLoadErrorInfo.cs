@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -6,7 +6,6 @@ namespace System.Activities.Presentation
 {
     using System;
     using System.Activities.Runtime;
-    using System.Runtime;
 
     [Serializable]
     [Fx.Tag.XamlVisible(false)]

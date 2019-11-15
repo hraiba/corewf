@@ -13,7 +13,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Editors
     using System.Windows.Controls;
     using System.Windows.Data;
 
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.PropertyEditing;
 

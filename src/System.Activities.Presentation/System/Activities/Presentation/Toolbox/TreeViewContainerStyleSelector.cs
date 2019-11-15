@@ -9,9 +9,9 @@ namespace System.Activities.Presentation.Toolbox
     using System.Windows.Controls;
     using System.Windows.Data;
     using System.Windows.Input;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Globalization;
-
+    using System.Activities.Internals;
     // This class is used to provide tree view item container template for Category
     // and Tool objects
 

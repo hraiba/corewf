@@ -12,8 +12,8 @@ namespace System.Activities.Presentation.Model
     using System.Globalization;
     using System.Activities.Presentation;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
-
+    using System.Activities.Runtime;
+    using System.Activities.Internals;
     /// <summary>
     /// A ModelEditingScope represents a group of changes to the 
     /// editing store.  Change groups are transactional:  
@@ -22,7 +22,7 @@ namespace System.Activities.Presentation.Model
     /// 
     /// When an editing scope is committed, the editing store 
     /// takes all changes that occurred within it and applies 
-    /// them to the model.  If the editing scope’s Revert method 
+    /// them to the model.  If the editing scopeï¿½s Revert method 
     /// is called, or the editing scope is disposed before Complete 
     /// is called, the editing scope will instead reverse the 
     /// changes made to the underlying objects, reapplying state 
@@ -108,7 +108,7 @@ namespace System.Activities.Presentation.Model
         /// Abandons the changes made during the editing scope.  If the 
         /// group has already been committed or aborted, this will 
         /// throw an InvalidOperationException.  Calling Revert calls 
-        /// the protected OnRevert with “false?for the 
+        /// the protected OnRevert with ï¿½false?for the 
         /// finalizing parameter.
         /// </summary>
         /// <exception cref="InvalidOperationException">If ModelEditingScope 

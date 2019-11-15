@@ -11,7 +11,7 @@ namespace System.Activities.Presentation.View
     using System.Windows.Data;
     using System.Windows.Input;
     using System.Windows.Media;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Globalization;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Runtime;

@@ -6,7 +6,7 @@ namespace System.Activities.Presentation.View
     using System;
     using System.Collections.ObjectModel;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Windows;
     using System.Windows.Automation;
     using System.Windows.Automation.Peers;

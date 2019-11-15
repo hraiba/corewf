@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Model
     using System;
     using System.Activities.Presentation.Services;
     using System.Collections.Generic;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Text;
 
     class DictionaryChange : ModelChange

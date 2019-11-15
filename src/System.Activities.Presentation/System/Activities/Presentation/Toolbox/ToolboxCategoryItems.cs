@@ -8,7 +8,7 @@ namespace System.Activities.Presentation.Toolbox
     using System.Collections.Generic;
     using System.Collections.ObjectModel;
     using System.Collections.Specialized;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Diagnostics.CodeAnalysis;
     using System.Activities.Internals;
 

@@ -10,7 +10,7 @@ namespace System.Activities.Presentation.Metadata
     using System.Runtime.Serialization;
     using System.Security.Permissions;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     // <summary>
     // This exception may be thrown from the ValidateTable method on
     // AttributeTable.  It will be thrown if the metadata provided in

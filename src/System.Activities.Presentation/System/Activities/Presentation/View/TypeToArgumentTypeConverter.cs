@@ -8,8 +8,8 @@ namespace System.Activities.Presentation.View
     using System.Globalization;
     using System.Windows.Data;
     using System.Activities.Presentation.Model;
-    using System.Runtime;
-
+    using System.Activities.Runtime;
+    using System.Activities.Internals;
     // This converter converts from InArgument<T>, OutArgument<T>, Activity<T> to T
     // this does not support convert back.
     internal sealed class TypeToArgumentTypeConverter : IValueConverter

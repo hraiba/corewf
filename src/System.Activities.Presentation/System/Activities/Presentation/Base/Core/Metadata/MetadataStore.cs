@@ -10,9 +10,9 @@ namespace System.Activities.Presentation.Metadata
     using System.Globalization;
     using System.Reflection;
     using System.Activities.Presentation.Internal.Metadata;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation;
-
+    using System.Activities.Internals;
     /// <summary>
     /// The MetadataStore is a container of custom attribute metadata.
     /// Custom attributes may be defined in an attribute table and added
@@ -39,7 +39,7 @@ namespace System.Activities.Presentation.Metadata
         }
 
         /// <summary>
-        /// Adds the given table to the current AppDomain’s attribute store.  
+        /// Adds the given table to the current AppDomainï¿½s attribute store.  
         /// Once added, calls to TypeDescriptor will use attributes defined 
         /// in the newly added table.  Multiple tables may be added to the 
         /// attribute store.  In the case of conflicts, attributes in the 

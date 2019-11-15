@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.FromExpression
     using System;
     using System.Windows.Input;
     using System.Diagnostics.CodeAnalysis;
-    using System.Runtime;
+    using System.Activities.Runtime;
 
     internal sealed class DelegateCommand : ICommand
     {

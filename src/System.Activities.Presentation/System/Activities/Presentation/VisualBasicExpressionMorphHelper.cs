@@ -1,4 +1,4 @@
-﻿//----------------------------------------------------------------
+//----------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //----------------------------------------------------------------
 
@@ -8,7 +8,7 @@ namespace System.Activities.Presentation
     using System.Activities.ExpressionParser;
     using System.Activities.Presentation.Expressions;
     using System.Activities.Presentation.View;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using Microsoft.VisualBasic.Activities;
 
     class VisualBasicExpressionMorphHelper : ExpressionMorphHelper

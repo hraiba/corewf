@@ -1,4 +1,4 @@
-﻿//-----------------------------------------------------------------------------
+//-----------------------------------------------------------------------------
 // Copyright (c) Microsoft Corporation.  All rights reserved.
 //-----------------------------------------------------------------------------
 
@@ -9,8 +9,9 @@ namespace System.Activities.Presentation
     using System.Text;
     using System.Windows.Media;
     using System.Windows;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Presentation.Internal.PropertyEditing;
+    using System.Activities.Runtime;
 
     public static class WorkflowDesignerColors
     {

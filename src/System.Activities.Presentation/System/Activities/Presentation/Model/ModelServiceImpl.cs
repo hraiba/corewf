@@ -7,7 +7,7 @@ namespace System.Activities.Presentation.Model
     using System.Collections.Generic;
     using System.Diagnostics;
     using System.Activities.Presentation.Services;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Activities.Internals;
 
     // This is the implementaion of the ModelService, this is published by the ModelTreeManager

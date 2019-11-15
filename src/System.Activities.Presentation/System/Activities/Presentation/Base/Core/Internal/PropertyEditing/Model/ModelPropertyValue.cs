@@ -24,6 +24,7 @@ namespace System.Activities.Presentation.Internal.PropertyEditing.Model
     using System.Activities.Presentation.Internal.PropertyEditing.Resources;
     using System.Activities.Presentation.Internal.Properties;
     using System.Activities.Presentation.Internal.PropertyEditing.Editors;
+    using System.Activities.Internals;
 
     // <summary>
     // Concrete implementation of PropertyValue that delegates to ModelPropertyEntryBase for

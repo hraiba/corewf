@@ -18,7 +18,7 @@ namespace System.Activities.Presentation.View
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Linq;
-    using System.Runtime;
+    using System.Activities.Runtime;
     using System.Runtime.Versioning;
     using System.Windows;
     using System.Windows.Automation.Peers;
