@@ -7,7 +7,6 @@ namespace System.Activities.Presentation.Model
 
     using System;
     using System.Activities;
-    using System.Diagnostics;
     using System.Linq;
     using System.Activities.Runtime;
     using System.Activities.Presentation.View;

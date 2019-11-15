@@ -16,7 +16,6 @@ namespace System.Activities.Presentation.View
     using System.Activities.XamlIntegration;
     using System.Collections.Generic;
     using System.ComponentModel;
-    using System.Diagnostics;
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Linq;
@@ -109,7 +108,7 @@ namespace System.Activities.Presentation.View
         PropertyChangedEventHandler onExpressionModelItemChangedHandler;
 
         //[SuppressMessage(FxCop.Category.Performance, FxCop.Rule.InitializeReferenceTypeStaticFieldsInline,
-            Justification = "This is recommended way by WPF to override metadata of DependencyProperty in derived class")]
+        //    Justification = "This is recommended way by WPF to override metadata of DependencyProperty in derived class")]
         static VisualBasicEditor()
         {
             ExpressionActivityEditor.HintTextProperty.OverrideMetadata(typeof(VisualBasicEditor), new FrameworkPropertyMetadata(SR.ExpressionDefaultText));
@@ -545,7 +544,7 @@ namespace System.Activities.Presentation.View
                     }
                     catch (Exception ex)
                     {
-                        Trace.WriteLine(ex.Message);
+                        Diagnostics.Trace.WriteLine(ex.Message);
                     }
 
                     if (this.expressionEditorInstance != null)
@@ -577,7 +576,7 @@ namespace System.Activities.Presentation.View
                         }
                         catch (KeyNotFoundException ex)
                         {
-                            Debug.Fail("Unable to find editor with the following editor name: " + this.editorName, ex.Message);
+                            Diagnostics.Debug.Fail("Unable to find editor with the following editor name: " + this.editorName, ex.Message);
                         }
                     }
                 }
@@ -929,7 +928,7 @@ namespace System.Activities.Presentation.View
             }
             catch (Exception err)
             {
-                Trace.WriteLine(string.Format(CultureInfo.CurrentUICulture, "{0}\r\n{1}", err.Message, err.StackTrace));
+                Diagnostics.Trace.WriteLine(string.Format(CultureInfo.CurrentUICulture, "{0}\r\n{1}", err.Message, err.StackTrace));
                 this.internalModelItemChange = false;
             }
         }
@@ -987,7 +986,7 @@ namespace System.Activities.Presentation.View
 
                     valueExpression = VisualBasicEditor.CreateExpressionFromString(expReturnType, this.Text, UseLocationExpression, validationContext.ParserContext);
 
-                    Trace.WriteLine(string.Format(CultureInfo.CurrentUICulture, "{0}\r\n{1}", err.Message, err.StackTrace));
+                    Diagnostics.Trace.WriteLine(string.Format(CultureInfo.CurrentUICulture, "{0}\r\n{1}", err.Message, err.StackTrace));
                 }
                 this.ExpressionText = this.Text;
             }
@@ -995,7 +994,7 @@ namespace System.Activities.Presentation.View
             {
                 // If the OwnerActivity is null, do not try to compile the expression otherwise VS will crash
                 // Inform the user that OwnerActivity is null (i.e. there is a error in their code)
-                Trace.WriteLine("ExpressionTextBox OwnerActivity is null.");
+                Diagnostics.Trace.WriteLine("ExpressionTextBox OwnerActivity is null.");
             }
             return valueExpression;
         }
