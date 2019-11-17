@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XamlTestCases", "XamlTestCa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImperativeTestCases", "ImperativeTestCases\ImperativeTestCases.csproj", "{A31AC815-D67E-46DD-920F-7D9B5CC63932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.Activities.Presentation", "System.Activities.Presentation\System.Activities.Presentation.csproj", "{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "System.Activities.Presentation", "System.Activities.Presentation\System.Activities.Presentation.csproj", "{995E7EBA-3446-43FD-8BDF-9932A6C7CCD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "System.ServiceModel.Internals", "System.ServiceModel.Internals\System.ServiceModel.Internals.csproj", "{3D603252-3126-4AA8-850B-0BB48AE7763B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
