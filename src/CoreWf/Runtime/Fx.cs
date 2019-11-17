@@ -506,7 +506,7 @@ namespace System.Activities.Runtime
             {
                 internal const string ExternallyManaged = "externally managed";
                 internal const string AppDomain = "AppDomain";
-                internal const string DeclaringInstance = "instance of declaring class";
+                public const string DeclaringInstance = "instance of declaring class";
                 internal const string Unbounded = "unbounded";
                 internal const string Infinite = "infinite";
             }
