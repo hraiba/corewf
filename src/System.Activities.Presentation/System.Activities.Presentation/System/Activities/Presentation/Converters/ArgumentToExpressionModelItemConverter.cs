@@ -4,7 +4,6 @@
 
 namespace System.Activities.Presentation.Converters
 {
-    using System.Diagnostics;
     using System.Globalization;
     using System.Windows.Data;
     using System.Activities.Presentation.Model;

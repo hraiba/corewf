@@ -6,6 +6,7 @@ namespace System.Activities.Presentation.Model
     using System.Activities.Internals;
     using System.Activities.Presentation.Services;
     using System.Activities.Runtime;
+    using System.Activities.Runtime.Collections;
     using System.Collections;
     using System.Collections.Generic;
     using System.Collections.Specialized;
@@ -15,7 +16,6 @@ namespace System.Activities.Presentation.Model
     using System.Globalization;
     using System.Linq;
     using System.Reflection;
-    using System.Activities.Runtime;
     using System.Runtime.Collections;
     using System.Windows;
     using System.Windows.Markup;

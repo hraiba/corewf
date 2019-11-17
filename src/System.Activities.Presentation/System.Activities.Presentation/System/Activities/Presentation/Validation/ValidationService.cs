@@ -15,8 +15,7 @@ namespace System.Activities.Presentation.Validation
     using System.Diagnostics.CodeAnalysis;
     using System.Globalization;
     using System.Reflection;
-    using System.Activities.Runtime;
-    using System.ServiceModel.Activities;
+    using System.ServiceModel;
     using System.Text;
     using System.Threading;
     using System.Windows.Threading;

@@ -8,6 +8,7 @@ namespace System.Activities.Presentation.Xaml
     using System.Activities.Presentation.Model;
     using System.Activities.Presentation.ViewState;
     using System.Collections.Generic;
+    using System.Collections.Specialized;
     using System.Linq;
     using System.Runtime.Collections;
 

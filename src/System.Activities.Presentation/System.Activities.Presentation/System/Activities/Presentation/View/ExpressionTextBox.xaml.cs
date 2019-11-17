@@ -28,6 +28,7 @@ namespace System.Activities.Presentation.View
     using System.Xaml;
     using Microsoft.Activities.Presentation;
     using ExpressionEditor = System.Activities.Presentation.Expressions.ExpressionActivityEditor;
+    using System.Runtime;
 
     public sealed partial class ExpressionTextBox : UserControl
     {
